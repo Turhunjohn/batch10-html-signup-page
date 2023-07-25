@@ -4,8 +4,43 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Batch10 Signup Page</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-
+	<div id="main-container">
+		<div id="form-section">
+			<p>SIGNUP</p>
+			<h1>Create an account</h1>
+			<p>Fill out the form to get started.</p>
+			<div id="name-section" class="full-width">
+				<div id="first-name-container" class="full-width">
+					<p>Enter your first name</p>
+					<input class="full-width" type="text" name="first-name" id="first-name" placeholder="First name *">
+				</div>
+				<div id="last-name-container" class="full-width">
+					<p>Enter your last name</p>
+					<input class="full-width" type="text" name="last-name" id="last-name" placeholder="Last name *">
+				</div>
+			</div>
+			<div id="email-container" class="full-width">
+				<p>Enter your email</p>
+				<input class="full-width" type="email" name="email" id="email" placeholder="Email *">
+			</div>
+			<div id="password-container" class="full-width">
+				<p>Enter your password</p>
+				<input class="full-width" type="password" name="password" id="password" placeholder="Password *">
+			</div>
+			<div id="actions-container">
+				<p>Already have an account? <a href="/">Login.</a></p>
+				<button id="signup">Sign up</button>
+			</div>
+			<div id="terms-and-conditions-container">
+				<p>By clicking "Sign up" button you agree with our <a href="/">company terms and conditions.</a></p>
+			</div>
+		</div>
+		<div id="image-section">
+			<img src="./coolBoy.png">
+		</div>
+	</div>
 </body>
 </html>
